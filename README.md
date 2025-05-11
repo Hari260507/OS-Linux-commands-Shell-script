@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![image](https://github.com/user-attachments/assets/3eb9b883-6a6c-4161-9639-e71ad36995f9)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -636,6 +636,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/c8def768-6108-4e2e-bea8-f0da65ff7196)
 
 
 # using numeric test comparisons
@@ -679,6 +680,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/d6bc8a2d-be5a-433b-8bc8-7b5abe8f80ef)
 
 # check if a file
 cat > ifnested.sh 
@@ -728,6 +730,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/cd746239-2a33-4f06-84e8-1fe2d95364ca)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -757,6 +760,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/316c950b-1360-46b1-b705-34fc240afffb)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -772,6 +776,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/4ecad5d6-38b7-456e-b295-5356e961c453)
 
 # using the case command
 cat >casecheck.sh 
@@ -791,6 +796,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+##output
+![image](https://github.com/user-attachments/assets/2b749c4d-857b-4b2c-9d5d-efc947c0b6eb)
+
  
 cat > whiletest
 ```bash
@@ -804,9 +812,11 @@ var1=$[ $var1 - 1 ]
 done
 ```
 $ chmod 755 whiletest.sh
- 
+
+
 $ ./whiletest.sh
- 
+ ##output
+ ![image](https://github.com/user-attachments/assets/e4f8e279-aea7-441e-b0a5-22a7248264db) 
  
 cat untiltest.sh 
 ```bash
@@ -833,7 +843,9 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ ##output
+ ![image](https://github.com/user-attachments/assets/d93baf23-7a13-4b86-ba2b-5ef4361193b3)
+
  
 cat forin2.sh 
 ```bash
@@ -846,6 +858,8 @@ done
  ```
  
 $ chmod 755 forin2.sh
+ ##output
+
  
 cat forin2.sh 
 ```bash
@@ -859,6 +873,7 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+##output
  
 cat forin3.sh 
 ```bash
@@ -883,6 +898,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -1038,6 +1055,8 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+
+
  ./funcex.sh 
 
  
@@ -1055,6 +1074,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1072,6 +1093,8 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1085,6 +1108,8 @@ done
 set +x
 ```
 ## OUTPUT
+
+
  ./argshift.sh 1 2 3
  
  
